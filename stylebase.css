@@ -263,151 +263,97 @@ body {
     background-color: black; /* Darker shade on hover */
 }
 
+/* Contact Us Section: Full-width layout */
 .last-section {
-    display: flex;
-    height: 100vh; /* Full viewport height */
-    align-items: center;
-    padding: 20px;
-    background-color: #f5f5dc; /* Cream background for right side */
-}
-
-.lefted-side {
-    width: 50%; /* 40% width for the image */
-    height: 100%; /* Full height */
-    background-image: url('7.jpg'); /* Image URL */
-    background-size: cover;
-    background-position: center;
-    border-radius: 10px; /* Optional rounded corners */
-}
-
-.righted-side {
-    width: 50%; /* 60% width for content */
-    padding: 10px;
+    width: 100%;
+    background-color: #3e4346; /* Matching footer background color */
+    color: #f5f5dc; /* White text for contrast */
+    padding: 10px 0; /* Adequate padding for spacing */
     display: flex;
     flex-direction: column;
-    justify-content: space-between; /* Space between content blocks */
+    align-items: center;
 }
 
-.righted-side h2 {
-    font-size: 2.5rem;
-    margin-bottom: 10px;
+.contact-container {
+    max-width: 1200px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 0.5fr;
+    gap: 20px;
 }
 
-.righted-side p {
-    font-size: 1.2rem;
-    margin-bottom: 10px;
+.logo-section img {
+    width: 50px; /* Adjust the logo size */
 }
 
-/* Logo, Heading, and Description */
-.logo-section {
-    text-align: center;
-    margin-bottom: 10px;
+.logo-section a{
+    color: white;
+    text-decoration: none;
 }
 
-.logo-section .logo{
-    height: 80px; /* Set height for the logo */
-    margin-bottom: 10px; /* Space between logo and heading */
-}
-
-.logo-section h2 {
-    font-size: 2rem;
-    margin-bottom: 10px;
-}
-
-.logo-section p {
-    font-size: 1.2rem;
-}
-
-/* Good sentence */
 .good-sentence {
+    font-size: 1.2em;
+    margin: 20px 0;
     text-align: center;
-    font-style: italic;
-    margin-bottom: 10px;
 }
 
-.good-sentence p {
-    font-size: 1.5rem;
-}
-
-/* Social media and address section */
-.social-address {
+.social-address, .resources-subscribe {
     display: flex;
     justify-content: space-between;
+    width: 100%;
+}
+
+h4 {
     margin-bottom: 10px;
 }
 
-.social-media,
-.address {
-    flex: 1;
-    padding: 10px;
+.social-media ul, .resources ul {
+    list-style: none;
+    padding: 0;
 }
 
-.social-media h4,
-.address h4 {
-    margin-bottom: 10px;
-    font-size: 1.5rem;
+.social-media ul li, .resources ul li {
+    margin: 5px 0;
 }
 
-.social-media a,
-.address p {
-    font-size: 1.2rem;
-}
-
-/* Resources and subscribe section */
-.resources-subscribe {
-    display: flex;
-    justify-content: space-between;
-}
-
-.resources,
-.subscribe {
-    flex: 1;
-    padding: 10px;
-}
-
-.resources h4,
-.subscribe h4 {
-    margin-bottom: 10px;
-    font-size: 1.5rem;
-}
-
-.resources a {
-    font-size: 1.2rem;
+.social-media ul li a, .resources ul li a {
+    color: white;
+    text-decoration: none;
 }
 
 .subscribe form {
     display: flex;
     flex-direction: column;
+    gap: 10px;
 }
 
-.subscribe input[type="email"] {
+.subscribe input {
     padding: 10px;
-    font-size: 1rem;
-    margin-bottom: 10px;
+    border: none;
     border-radius: 5px;
-    border: 1px solid #ccc;
+    width: 100%;
 }
 
 .subscribe button {
     padding: 10px;
-    font-size: 1.2rem;
-    background-color: #36393b; /* Button color */
-    color: #f5f5dc;
+    background-color: white;
+    color: #3e4346;
     border: none;
-    border-radius: 5px;
     cursor: pointer;
+    border-radius: 5px;
     transition: background-color 0.3s;
 }
 
 .subscribe button:hover {
-    background-color: black; /* Darker shade on hover */
+    background-color: #0f0f0f; /* Slightly darker for hover effect */
 }
+
 
 footer {
     margin-top: auto;
     padding: 10px;
     background-color: #3e4346;
-    color: #f5f5dc;
+    color: white;
     text-align: center;
     width: 100%;
 }
