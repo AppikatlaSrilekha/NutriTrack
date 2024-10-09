@@ -336,8 +336,8 @@ h4 {
 
 .subscribe button {
     padding: 10px;
-    background-color: white;
-    color: #3e4346;
+    background-color: rgb(104, 81, 81);
+    color: white;
     border: none;
     cursor: pointer;
     border-radius: 5px;
